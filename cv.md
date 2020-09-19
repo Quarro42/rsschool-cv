@@ -19,3 +19,6 @@
 
 # Education:
 ##Saratov State University named after N.G.Chernyshevsky, Bachelor of Arts - BA, Fundamental and Applied Linguistics.
+
+#English:
+##I studied English at school and at the university. Since I’m working at Linguistic Service Provider company I’m practicing my English skills every day.
