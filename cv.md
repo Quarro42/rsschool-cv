@@ -15,4 +15,7 @@
 ## HTML, CSS.
 
 # Experience:
-## Though I don’t have enough experience in the IT-field, I’m open to new ideas and new information. 
+## Though I don’t have enough experience in the IT-field, I’m open to new ideas and new information.
+
+# Education:
+##Saratov State University named after N.G.Chernyshevsky, Bachelor of Arts - BA, Fundamental and Applied Linguistics.
