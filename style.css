@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+
+.wrap {
+    max-width: 1024px;
+    height: 1375px;
+    margin: auto;
+    background-image: url(https://clck.ru/QvyLS);
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p, h1, h2, li {
+    font-family: Roboto;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Roboto;
+    text-decoration: underline;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    top: 260px;
+    left: 160px;
+}
+
+.pic {
+    position: relative;
+    left: 700px;
+    top: 110px;
+    border: 3px solid #B6C7AF;
+}
+
+section {
+    position: relative;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 40px;
+}
+
+.contacts {
+    left: 40px;
+    bottom: 30px;
+}
+
+.contacts h3 {
+    text-align: left;
+    text-decoration: none;
+}
