@@ -76,11 +76,17 @@ code {
 }
 
 .gh-logo {
-  width: 300px;
+  width: 200px;
   margin-left: auto;
 }
 
 .rs-logo {
   margin-right: auto;
   margin-left: 300px;
+}
+.rs-img {
+    height: 150px;
+}
+.gh-logo:hover, .rs-logo:hover {
+    box-shadow: 0 0 10px rgba(46, 196, 71, 0.5);
 }
