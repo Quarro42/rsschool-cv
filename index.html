@@ -54,16 +54,16 @@
           <code>
             const getData = function(firstArray, secondArray) { <br>
               let finalArray = []; <br>
-              for (let i = 0; i &lt secondArray.length; i++) { <br>
+              for (let i = 0; i &lt; secondArray.length; i++) { <br>
                 const result = {}; <br>
-                for (let j = 0; j &lt firstArray.length; j++) { <br>
-                  if (secondArray[i][j] !== undefined) { <br>
+                for (let j = 0; j &lt; firstArray.length; j++) { <br>
+                  if (secondArray[i][j]) { <br>
                     result[firstArray[j]] = secondArray[i][j]; <br>
                   } <br>
                 } <br>
                 finalArray.push(result); <br>
               } <br>
-              return finalArr; <br>
+              return finalArray; <br>
             }; <br>
           </code>
         </section>
