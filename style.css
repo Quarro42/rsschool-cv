@@ -1,59 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
-
 .wrap {
-    max-width: 1024px;
-    height: 1375px;
-    margin: auto;
-    background-image: url(https://clck.ru/QvyLS);
-    background-repeat: no-repeat;
-    background-size: 100%;  
+  width: 900px;
+  margin: 0 auto;
+  border-left: 1px solid #B6C7AF;
+  border-right: 1px solid #B6C7AF;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: Roboto;
 }
 
 h1 {
-    font-size: 35px;
-}
-
-p, h1, h2, li {
-    font-family: Roboto;
-}
-
-p {
-    font-size: 18px;
+  font-size: 35px;
 }
 
 h3 {
-    font-family: Roboto;
-    text-decoration: underline;
-    text-align: center;
+  font-family: Roboto;
+  text-decoration: underline;
+  text-align: center;
 }
 
-header {
-    position: relative;
-    top: 260px;
-    left: 160px;
+p {
+  font-size: 18px;
+}
+
+.header-wrap {
+  display: flex;
+}
+
+.header {
+  width: 300px;
+  margin-left: auto;
+}
+
+.fig {
+  margin-right: auto;
+  margin-left: 300px;
 }
 
 .pic {
-    position: relative;
-    left: 700px;
-    top: 110px;
-    border: 3px solid #B6C7AF;
+  border: 3px solid #B6C7AF;
+}
+
+figcaption {
+  font-family: Roboto;
+  text-align: center;
 }
 
 section {
-    position: relative;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+code {
+  font-weight: 700;
 }
 
 .contacts {
-    left: 40px;
-    bottom: 30px;
+  left: 40px;
+  bottom: 30px;
 }
 
 .contacts h3 {
-    text-align: left;
-    text-decoration: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+}
+
+.gh-logo {
+  width: 300px;
+  margin-left: auto;
+}
+
+.rs-logo {
+  margin-right: auto;
+  margin-left: 300px;
 }

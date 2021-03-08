@@ -8,68 +8,84 @@
     <title>Resume</title>
   </head>
   <body>
-    <main>
-      <div class="wrap">
-
-        <header>
-            <h1>Resume</h1>           
-            <h2>Nick Kim</h2>
+    <div class="wrap">
+      <div class="header-wrap">
+        <header class="header">
+          <h1>Resume</h1>
+          <h2>Nick Kim</h2>
         </header>
-
-        <img
-          class="pic";
-          src="https://clck.ru/Qvvzj"
-          width="200"
-          height="300"
-          alt="Don't see my photo? Lucky you! I have to do it every day">
-      
-        <section class="contacts"> 
+        <figure class="fig">
+          <img class="pic" src="assets/photo.png" alt="Don't see my photo? Lucky you! I have to do it every day" width="200" height="300">
+          <figcaption>That's me</figcaption>
+        </figure>   
+      </div>
+      <main> 
+        <section class="contacts">
           <h3>Contacts</h3>
           <ul>
             <li>E-mail: <i>lignum.nlk@gmail.com</i></li>
             <li>Skype: <i>live:lignum.nlk</i></li>
             <li><a href="https://www.linkedin.com/in/nickkim-11010101/">LinkedIn</a></li>
-            <li>Phone number: <i>+7 927 123 21 05 (Viber, Telegram, WhatsApp)</i></li>
+            <li>Phone number: <i>+7 927 123 21 05 (Viber, Telegram)</i></li>
           </ul>
         </section>
-
-        <section class="summary"> 
+        <section class="summary">
           <h3>Summary</h3>
           <p>
-                My goal is to learn one of the programing languages. Since the world is digitalizing more and more every day, I need to a tool to understand it better. At the IT-field people can build and create whatever they want. I won’t be surprised if in 10 or 20 years learning programming language would become a routine just like learning foreign languages.
+            My goal is to learn one of the programing languages. Since the world is digitalizing more and more every day, I need to a tool to understand it better. At the IT-field people can build and create whatever they want. I won’t be surprised if in 10 or 20 years learning programming language would become a routine just like learning foreign languages.
           </p>
         </section>
-        
         <section class="experience">
           <h3>Experience</h3>
           <p>
-                Although I don’t have enough experience in the IT-field, I’m open to new ideas and new information. Also goal and innovation-driven mindset, life long learner, curious at heart. Currently looking for new opportunities where I can contribute, meet new challenges, learn new and develop my personal and professional skills. 
+            Although I don’t have enough experience in the IT-field, I’m open to new ideas and new information. Also goal and innovation-driven mindset, life long learner, curious at heart. Currently looking for new opportunities where I can contribute, meet new challenges, learn new and develop my personal and professional skills.
           </p>
         </section>
-
-        <section class="skills"> 
+        <section class="skills">
           <h3>Skills</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>JS</li>
           </ul>
         </section>
-
-        <section class="education"> 
+        <section class="codeexample">
+          <h3>Code Example</h3>
+          <code>
+            const getData = function(firstArray, secondArray) { <br>
+              let finalArray = [];<br>
+              for (let i = 0; i < secondArray.length; i++) { <br>
+                const result = {}; <br>
+                for (let j = 0; j < firstArray.length; j++) { <br>
+                  if (secondArray[i][j] !== undefined) { <br>
+                    result[firstArray[j]] = secondArray[i][j]; <br>
+                  } <br>
+                } <br>
+                finalArray.push(result); <br>
+              } <br>
+              return finalArr; <br>
+            }; <br>
+          </code>
+        </section>
+        <section class="education">
           <h3>Education</h3>
           <p>
-                Saratov State University named after N.G.Chernyshevsky, Bachelor of Arts - BA, Fundamental and Applied Linguistics
+            Saratov State University named after N.G.Chernyshevsky, Bachelor of Arts - BA, Fundamental and Applied Linguistics
           </p>
         </section>
-
         <section class="english">
           <h3>English</h3>
           <p>
             Upper-intermediate level B2-B2+
           </p>
         </section>
-        
-      </div>
     </main>
+    <footer class="footer">
+      <div class="footer-logos">
+        <a href="https://github.com/Quarro42" class="gh-logo"><img src="assets/GitHub-logo.jpg" alt="GitHub_logo" width="200" height="100"></a>
+        <a href="https://rs.school/js/" class="rs-logo"><img src="assets/rs_school_js.svg" alt="rs_school_logo" width="200" height="200"></a>
+      </div>
+    </footer>
+    </div>
   </body>
 </html>
